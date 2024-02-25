@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.VisualBasic;
+using System.ComponentModel.DataAnnotations;
 
 namespace To_Do.Model
 {
@@ -11,6 +12,7 @@ namespace To_Do.Model
         [Required]
         public string Description { get; set; }
         public DateTime DueDate { get; set; }
+        public TimeSpan DueTime { get; set; }
         public bool Status { get; set; }
 
     }

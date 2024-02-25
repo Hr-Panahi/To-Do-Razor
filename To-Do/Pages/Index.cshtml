@@ -4,7 +4,60 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<dvi class="container p3">
+    <div class="row pt-4">
+        <div>
+            <h2 class="text-primary">Task list</h2>
+        </div>
+    </div>
+    <br/><br/>
+    <table class="table table-bordered table-striped" style="width:100%">
+        <thead>
+            <tr>
+                <th class="col-3">Title</th>
+                <th class="col-5">Description</th>
+                <th class="col-1">Due Date</th>
+                <th class="col-1">Due Time</th>
+                <th class="col-1">Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var obj in Model.ToDoTasks)
+            {
+                <tr>
+                    <td>@obj.Title</td>
+                    <td>@obj.Description</td>
+                    <td>@obj.DueDate.ToShortDateString()</td>
+                    <td>@obj.DueTime.ToString("hh\\:mm")</td>
+                    <td >@obj.Status</td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+    <form method="post">
+        <div class="border p-3 mt-4">
+            <div class="row pb-2">
+                <h2 class="text-primary pl-3">Add Task</h2>
+                <hr />
+            </div>
+            <div class="mb-3">
+                <lable asp-for="@Model.NewToDoTask.Title"></lable>
+                <input asp-for="@Model.NewToDoTask.Title" type="text" name="NewToDoTask.Title" />
+            </div>
+            <div class="mb-3">
+                <lable asp-for="@Model.NewToDoTask.Description"></lable>
+                <input asp-for="@Model.NewToDoTask.Description" type="text" name="NewToDoTask.Description" />
+            </div>
+            <div class="mb-3">
+                <input asp-for="@Model.NewToDoTask.DueDate" type="date" name="NewToDoTask.DueDate" />
+                <lable asp-for="@Model.NewToDoTask.DueDate"></lable>
+            </div>
+            <div class="mb-3">
+                <input asp-for="@Model.NewToDoTask.DueTime" type="time" name="NewToDoTask.DueTime" />
+                <lable asp-for="@Model.NewToDoTask.DueTime"></lable>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width:150px;">Add</button>
+        </div>
+    </form>
+</dvi>

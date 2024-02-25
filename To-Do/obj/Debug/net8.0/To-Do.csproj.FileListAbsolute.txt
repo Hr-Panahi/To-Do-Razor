@@ -134,3 +134,4 @@ E:\Asp.Net Projects\To-Do-Razor\To-Do\obj\Debug\net8.0\refint\To-Do.dll
 E:\Asp.Net Projects\To-Do-Razor\To-Do\obj\Debug\net8.0\To-Do.pdb
 E:\Asp.Net Projects\To-Do-Razor\To-Do\obj\Debug\net8.0\To-Do.genruntimeconfig.cache
 E:\Asp.Net Projects\To-Do-Razor\To-Do\obj\Debug\net8.0\ref\To-Do.dll
+E:\Asp.Net Projects\To-Do-Razor\To-Do\obj\Debug\net8.0\To-Do.sourcelink.json
