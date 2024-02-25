@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\To-Do.bundle.scp.css"
     },
     {
+      "Id": "E:\\Asp.Net Projects\\To-Do-Razor\\To-Do\\wwwroot\\css\\bootswatch_united.css",
+      "PackagePath": "staticwebassets\\css\\bootswatch_united.css"
+    },
+    {
       "Id": "E:\\Asp.Net Projects\\To-Do-Razor\\To-Do\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

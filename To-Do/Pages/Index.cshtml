@@ -4,13 +4,12 @@
     ViewData["Title"] = "Home page";
 }
 
-<dvi class="container p3">
-    <div class="row pt-4">
+<div class="container p1">
+    <div class="row pt-1">
         <div>
             <h2 class="text-primary">Task list</h2>
         </div>
     </div>
-    <br/><br/>
     <table class="table table-bordered table-striped" style="width:100%">
         <thead>
             <tr>
@@ -42,22 +41,28 @@
                 <hr />
             </div>
             <div class="mb-3">
-                <lable asp-for="@Model.NewToDoTask.Title"></lable>
+                <lable asp-for="@Model.NewToDoTask.Title">Title</lable>
                 <input asp-for="@Model.NewToDoTask.Title" type="text" name="NewToDoTask.Title" />
+                <span asp-validation-for="@Model.NewToDoTask.Title" class="text-danger"></span>
             </div>
             <div class="mb-3">
-                <lable asp-for="@Model.NewToDoTask.Description"></lable>
+                <lable asp-for="@Model.NewToDoTask.Description">Description</lable>
                 <input asp-for="@Model.NewToDoTask.Description" type="text" name="NewToDoTask.Description" />
+                <span asp-validation-for="@Model.NewToDoTask.Description" class="text-danger"></span>
             </div>
             <div class="mb-3">
                 <input asp-for="@Model.NewToDoTask.DueDate" type="date" name="NewToDoTask.DueDate" />
                 <lable asp-for="@Model.NewToDoTask.DueDate"></lable>
-            </div>
-            <div class="mb-3">
                 <input asp-for="@Model.NewToDoTask.DueTime" type="time" name="NewToDoTask.DueTime" />
                 <lable asp-for="@Model.NewToDoTask.DueTime"></lable>
             </div>
             <button type="submit" class="btn btn-primary" style="width:150px;">Add</button>
         </div>
     </form>
-</dvi>
+</div>
+
+@section Scripts{
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}

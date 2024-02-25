@@ -11,7 +11,7 @@ namespace To_Do.Model
         public string Title { get; set; }
         [Required]
         public string Description { get; set; }
-        public DateTime DueDate { get; set; }
+        public DateTime DueDate { get; set; } = DateTime.Now;
         public TimeSpan DueTime { get; set; }
         public bool Status { get; set; }
 

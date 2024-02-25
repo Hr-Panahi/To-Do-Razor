@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "neOD3ymdXpA8jZ9mTLQB9JOxFyurhjmKgUT/7+ARs8M=",
+  "Hash": "1dnObdQa2fzCXoqk1KPcBe3i1fkS6T2tzGi/zXyzkTU=",
   "Source": "To-Do",
   "BasePath": "_content/To-Do",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "E:\\Asp.Net Projects\\To-Do-Razor\\To-Do\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\To-Do.bundle.scp.css"
+    },
+    {
+      "Identity": "E:\\Asp.Net Projects\\To-Do-Razor\\To-Do\\wwwroot\\css\\bootswatch_united.css",
+      "SourceId": "To-Do",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Asp.Net Projects\\To-Do-Razor\\To-Do\\wwwroot\\",
+      "BasePath": "_content/To-Do",
+      "RelativePath": "css/bootswatch_united.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootswatch_united.css"
     },
     {
       "Identity": "E:\\Asp.Net Projects\\To-Do-Razor\\To-Do\\wwwroot\\css\\site.css",

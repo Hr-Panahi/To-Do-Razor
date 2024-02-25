@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "E:\\Asp.Net Projects\\To-Do-Razor\\To-Do\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Asp.Net Projects\\To-Do-Razor\\To-Do\\Migrations\\20240225130529_AddTimeSpanDueTime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240225130529_AddTimeSpanDueTime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0647E05D-84AC-4567-8ABD-BD8B8284891F}|To-Do.csproj|e:\\asp.net projects\\to-do-razor\\to-do\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0647E05D-84AC-4567-8ABD-BD8B8284891F}|To-Do.csproj|solutionrelative:pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0647E05D-84AC-4567-8ABD-BD8B8284891F}|To-Do.csproj|e:\\asp.net projects\\to-do-razor\\to-do\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0647E05D-84AC-4567-8ABD-BD8B8284891F}|To-Do.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0647E05D-84AC-4567-8ABD-BD8B8284891F}|To-Do.csproj|e:\\asp.net projects\\to-do-razor\\to-do\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0647E05D-84AC-4567-8ABD-BD8B8284891F}|To-Do.csproj|solutionrelative:pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0647E05D-84AC-4567-8ABD-BD8B8284891F}|To-Do.csproj|e:\\asp.net projects\\to-do-razor\\to-do\\model\\todotask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0647E05D-84AC-4567-8ABD-BD8B8284891F}|To-Do.csproj|solutionrelative:model\\todotask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Asp.Net Projects\\To-Do-Razor\\To-Do\\Migrations\\20240225124511_AddTimeToTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240225124511_AddTimeToTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0647E05D-84AC-4567-8ABD-BD8B8284891F}|To-Do.csproj|e:\\asp.net projects\\to-do-razor\\to-do\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0647E05D-84AC-4567-8ABD-BD8B8284891F}|To-Do.csproj|solutionrelative:pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0647E05D-84AC-4567-8ABD-BD8B8284891F}|To-Do.csproj|e:\\asp.net projects\\to-do-razor\\to-do\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0647E05D-84AC-4567-8ABD-BD8B8284891F}|To-Do.csproj|solutionrelative:pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,51 +35,51 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20240225130529_AddTimeSpanDueTime.cs",
-              "DocumentMoniker": "E:\\Asp.Net Projects\\To-Do-Razor\\To-Do\\Migrations\\20240225130529_AddTimeSpanDueTime.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240225130529_AddTimeSpanDueTime.cs",
-              "ToolTip": "E:\\Asp.Net Projects\\To-Do-Razor\\To-Do\\Migrations\\20240225130529_AddTimeSpanDueTime.cs",
-              "RelativeToolTip": "Migrations\\20240225130529_AddTimeSpanDueTime.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAABHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T13:05:29.544Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "20240225124511_AddTimeToTable.cs",
-              "DocumentMoniker": "E:\\Asp.Net Projects\\To-Do-Razor\\To-Do\\Migrations\\20240225124511_AddTimeToTable.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240225124511_AddTimeToTable.cs",
-              "ToolTip": "E:\\Asp.Net Projects\\To-Do-Razor\\To-Do\\Migrations\\20240225124511_AddTimeToTable.cs",
-              "RelativeToolTip": "Migrations\\20240225124511_AddTimeToTable.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T12:45:11.685Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ToDoTask.cs",
-              "DocumentMoniker": "E:\\Asp.Net Projects\\To-Do-Razor\\To-Do\\Model\\ToDoTask.cs",
-              "RelativeDocumentMoniker": "Model\\ToDoTask.cs",
-              "ToolTip": "E:\\Asp.Net Projects\\To-Do-Razor\\To-Do\\Model\\ToDoTask.cs",
-              "RelativeToolTip": "Model\\ToDoTask.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T12:30:08.222Z",
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "E:\\Asp.Net Projects\\To-Do-Razor\\To-Do\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "E:\\Asp.Net Projects\\To-Do-Razor\\To-Do\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-25T16:00:59.57Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "ToDoTask.cs",
+              "DocumentMoniker": "E:\\Asp.Net Projects\\To-Do-Razor\\To-Do\\Model\\ToDoTask.cs",
+              "RelativeDocumentMoniker": "Model\\ToDoTask.cs",
+              "ToolTip": "E:\\Asp.Net Projects\\To-Do-Razor\\To-Do\\Model\\ToDoTask.cs",
+              "RelativeToolTip": "Model\\ToDoTask.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-25T15:54:40.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\Asp.Net Projects\\To-Do-Razor\\To-Do\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\Asp.Net Projects\\To-Do-Razor\\To-Do\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAEoAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-25T15:23:09.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "E:\\Asp.Net Projects\\To-Do-Razor\\To-Do\\Pages\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Index.cshtml.cs",
               "ToolTip": "E:\\Asp.Net Projects\\To-Do-Razor\\To-Do\\Pages\\Index.cshtml.cs",
               "RelativeToolTip": "Pages\\Index.cshtml.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAUwCQAAAAFAAAA",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAswCgAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-25T11:31:12.664Z",
               "EditorCaption": ""
@@ -92,7 +92,7 @@
               "RelativeDocumentMoniker": "Pages\\Index.cshtml",
               "ToolTip": "E:\\Asp.Net Projects\\To-Do-Razor\\To-Do\\Pages\\Index.cshtml",
               "RelativeToolTip": "Pages\\Index.cshtml",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAwC8AAAAeAAAA",
+              "ViewState": "AQIAACoAAAAAAAAAAAAcwD4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-02-25T11:31:11.394Z",
               "EditorCaption": ""
