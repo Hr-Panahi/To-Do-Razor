@@ -18,9 +18,11 @@
                 <th class="col-1">Due Date</th>
                 <th class="col-1">Due Time</th>
                 <th class="col-1">Status</th>
+                <th class="col-1">Actions</th>
             </tr>
         </thead>
         <tbody>
+
             @foreach(var obj in Model.ToDoTasks)
             {
                 <tr>
@@ -28,10 +30,23 @@
                     <td>@obj.Description</td>
                     <td>@obj.DueDate.ToShortDateString()</td>
                     <td>@obj.DueTime.ToString("hh\\:mm")</td>
-                    <td >@obj.Status</td>
+                    <td>@obj.Status</td>
+                    <td>
+                        <div class="btn-group" role="group">
+                         <!-- Edit button -->
+                         <form asp-page-handler="Edit" asp-route-id="@obj.Id">
+                           <button type="submit" class="btn btn-sm btn-primary">Edit</button>
+                           <button type="button" class="btn btn-sm btn-primary" onclick="editTask(@obj.Id)">Edit</button>
+                         </form>
+
+                        <!-- Delete button -->
+                        <form asp-page-handler="Delete" asp-route-id="@obj.Id">
+                            <button type="submit" class="btn btn-sm btn-danger">Delete</button>
+                        </form>
+                        <div/>
+                    </td>
                 </tr>
             }
-
         </tbody>
     </table>
     <form method="post">
@@ -40,6 +55,8 @@
                 <h2 class="text-primary pl-3">Add Task</h2>
                 <hr />
             </div>
+            <input type="hidden" asp-for="@Model.NewToDoTask.Id" />
+
             <div class="mb-3">
                 <lable asp-for="@Model.NewToDoTask.Title">Title</lable>
                 <input asp-for="@Model.NewToDoTask.Title" type="text" name="NewToDoTask.Title" />
@@ -64,5 +81,26 @@
 @section Scripts{
     @{
         <partial name="_ValidationScriptsPartial" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            function editTask(taskId) {
+                // Send AJAX request to fetch task details
+                $.ajax({
+                    url: '/Index',
+                    type: 'POST',
+                    data: { id: taskId, handler: 'Edit' },
+                    success: function (data) {
+                        // Fill the form with task details returned from the server
+                        $('#NewToDoTask_Title').val(data.title);
+                        $('#NewToDoTask_Description').val(data.description);
+                        $('#NewToDoTask_DueDate').val(data.dueDate);
+                        $('#NewToDoTask_DueTime').val(data.dueTime);
+                    },
+                    error: function (xhr, status, error) {
+                        console.error(xhr.responseText);
+                    }
+                });
+            }
+        </script>
     }
 }

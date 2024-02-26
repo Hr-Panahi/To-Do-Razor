@@ -5,6 +5,7 @@ using To_Do.Model;
 
 namespace To_Do.Pages
 {
+    [BindProperties]
     public class IndexModel : PageModel
     {
         //private readonly ILogger<IndexModel> _logger;
@@ -15,7 +16,6 @@ namespace To_Do.Pages
         //}
         private readonly ApplicationDbContext _db;
         public IEnumerable<ToDoTask> ToDoTasks { get; set; }
-        [BindProperty]
         public ToDoTask NewToDoTask { get; set; }
 
         public IndexModel(ApplicationDbContext db)
@@ -23,7 +23,7 @@ namespace To_Do.Pages
             _db = db;
             NewToDoTask = new ToDoTask(); // Initialize NewToDoTask
         }
-        public void OnGet()
+        public void OnGet(int id)
         {
             ToDoTasks = _db.ToDoTask;
         }
@@ -39,5 +39,33 @@ namespace To_Do.Pages
             ToDoTasks = _db.ToDoTask;
             return Page();
         }
+
+        public async Task<IActionResult> OnPostEdit(int id)
+        {
+            var taskToUpdate = await _db.ToDoTask.FindAsync(id);
+            if (taskToUpdate == null)
+            {
+                return NotFound();
+            }
+
+            NewToDoTask = taskToUpdate; // Pre-fill form with task details for editing
+            return Page();
+        }
+
+
+
+        public async Task<IActionResult> OnPostDeleteAsync(int id)
+        {
+            var taskToDelete = await _db.ToDoTask.FindAsync(id);
+            if (taskToDelete == null)
+            {
+                return NotFound();
+            }
+
+            _db.ToDoTask.Remove(taskToDelete);
+            await _db.SaveChangesAsync();
+            return RedirectToPage();
+        }
+
     }
 }
